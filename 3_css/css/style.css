@@ -1,0 +1,38 @@
+h3 {
+    color: brown;
+    font-size: 70px;
+}
+
+/*classes*/
+
+.paragrafo {
+    background-color: blanchedalmond;
+    color: blueviolet;
+}
+
+#exclusivo { 
+    background-color: black;
+    color: antiquewhite;
+}
+
+h2{
+    border-bottom: 2px solid blue;
+}
+
+.outra-coisa {
+    border-bottom: 2px solid red;
+}
+
+#qualquer-coisa {
+    border-bottom: 2px solid green;
+}
+
+.color-name {
+    color:aquamarine;
+}
+
+.bg-imagem {
+    background-image: url("../img/background.jpg");
+    padding: 10px;
+    color: antiquewhite;
+}
