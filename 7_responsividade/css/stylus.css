@@ -1,0 +1,38 @@
+/* media query*/
+
+h1{
+    color: rebeccapurple;
+}
+
+@media screen and (max-width:300px) {
+    h1 {
+        color: blue;
+    }
+}
+
+/* min width*/
+p{
+    background-color: blue;
+    color: antiquewhite;
+}
+
+@media screen and (min-width:500px){
+    p{
+        background-color: aqua;
+        color: brown;
+    }
+}
+
+/*landscape*/
+
+h3 {
+    display: none;
+
+}
+
+@media screen and (orientation: landscape) {
+    
+    h3{
+        display: block;
+}
+}
